@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar-con {
+  display: flex;
+  /* border: 1px solid rgb(136, 31, 211); */
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 29px;
+  /* border: 1px solid red; */
+  width: 15%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 1em;
+}
+
+
+.navbar-menu {
+  display: flex;
+
+
+
+}
+
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-top: 2.5em;
+  margin-right: 2em;
+}
+
+
+.navbar-menu a {
+  text-decoration: none;
+  color: black;
+  /* border: 1px solid red;  */
+}
+
+.search-box {
+  /* border: 1px solid red;  */
+
+  width: 50%;
+  margin-top: 10px;
+  padding-top: 6px 1em;
+  border-radius: 9999px;
+  margin-left: 2em;
+
+
+}
+
+.search-box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 9999px;
+  padding: 1em;
+
+}
+
+
+.user-icon-about-account ul {
+  display: flex;
+  list-style: none;
+  margin-top: 1.3em;
+  gap: 1.9em;
+
+
+
+
+}
+
+
+.user-icon-about-account img {
+  height: 32px;
+  width: 32px;
+
+}
+
+.main-content-box {
+  height: 663px;
+  background-color: #F2F0F1;
+  margin-left: 30px;
+}
+
+
+
+.main-content-box,
+.image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.main-title {
+  margin-top: 138px;
+  margin-left: 72px;
+  font-size: 64px;
+}
+
+
+.small-main-title {
+  font-size: 16px;
+  color: #b6b7ba;
+  margin-left: 72px;
+  margin-top: 31px;
+
+}
+
+.shop-now-btn {
+  background-color: black;
+  border: 9999px;
+  border-radius: 9999px;
+  width: 210px;
+  height: 52px;
+  margin-top: 31px;
+  margin-left: 70px;
+}
+
+
+.shop-now-btn a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  padding-top: 1em;
+
+}
+
+
+.main-stats {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 67px;
+  margin-top: 60px;
+  margin-left: 72px;
+}
+
+
+.main-stats li+li {
+  border-left: 2px solid rgb(214, 213, 213);
+  padding: 0 33px;
+}
+
+.main-stats li {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-stats li small {
+  display: block;
+
+}
+
+.main-stats li {
+  font-size: 40px;
+}
+
+.main-stats small {
+  font-size: 16px;
+  color: #a8a7a7;
+}
+
+.small-main-title {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #a8a7a7;
+}
+
+
+.show-brands {
+  margin-top: 35px;
+  height: 122px;
+  background-color: black;
+}
+
+.show-brands ul {
+  list-style: none;
+  display: flex;
+  gap: 130px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  padding-top: 1.5em;
+
+
+}
+
+.show-brands li {
+  font-size: 60px;
+  color: white;
+
+}
+
+.new-arrivals {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  margin-top: 91px;
+}
+
+.product-item {
+  display: grid;
+}
+
+.rating-t-shirt span {
+  font-size: 14px;
+}
+
+.price-t-shirt {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.skinny-fit-jeans-price-discounted {
+  text-decoration: line-through;
+  color: #a8a7a7;
+}
+
+
+
+.new-arrivals-container {
+  margin-top: 61px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #a8a7a7;
+  opacity: 0.6;
+  margin-top: 18px;
+}
+
+.price-skinny-fit-jeans {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.current-price,
+.price-checkered-shirt {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.percent-discount {
+  background-color: #fdecec;
+  color: red;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+
+
+
+.t-shirt-tape-details {
+  border: 20px #c5c7c5;
+}
+
+
+.view-all-btn {
+  display: flex;
+  margin-left: 800px;
+  margin-top: 41px;
+  width: 218px;
+  height: 52px;
+  border: 1px solid rgb(190, 177, 177);
+  border-radius: 9999px;
+}
+
+.view-all-btn a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5em;
+  padding-top: 1em;
+
+}
+
+.product-item {
+  gap: 20px;
+}
+
+.price-t-shirt {
+  margin-top: 12px;
+}
+
+.price-sleeve-striped-t-shirt {
+  margin-top: 18px;
+}
+
+
+
+.rating-sleeve-striped-t-shirt,
+.rating-checkered-shirt,
+.rating-skinny-fit-jeans,
+.rating-t-shirt {
+  margin-top: 5.2px;
+}
+
+
+.t-shirt-tape-details h3,
+.skinny-fit-jeans h3,
+.checkered-shirt h3 ,
+.sleeve-striped-t-shirt h3{
+  margin-top: 9px;
+}
+
+
+
+
+
+
+
+.divider {
+  height: 1px;
+  width: 1240px;
+  border: 1px solid #d3dce6;
+  margin: 40px auto;
+}
+
+
+.top-slling-title {
+  margin-left: 16em;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-top: 82px;
+}
+
+.vertical-striped-shirt-price,
+.loose-fit-bermuda-shorts-price,
+.faded-skinny-jeans-price,
+.courage-graphic-t-shirt-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.vertical-striped-shirt-rating,
+.courage-graphic-t-shirt-rating,
+.loose-fit-bermuda-shorts-rating,
+.faded-skinny-jeans-rating{
+  margin-top: 12px;
+}
+
+
+.top-slling-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-left: 100px;
+  margin-top: 61px;
+}
+
+
+
+.vertical-striped-shirt img,
+.courage-graphic-t-shirt img,
+.loose-fit-bermuda-shorts img,
+.faded-skinny-jeans img,
+.t-shirt-tape-details img ,
+.skinny-fit-jeans img ,
+.checkered-shirt img ,
+.sleeve-striped-t-shirt img
+{
+
+border-radius: 30px
+
+}
+
+
+.view-all-btn-top-selling {
+  margin-top: 2em;
+  margin-left: 50em;
+  border: 1px solid gray;
+  border-radius: 9999px;
+  height: 53px;
+  width: 218px;
+
+}
+
+.view-all-btn-top-selling a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-left: 5em;
+  padding-top: 1em;
+}
+
+/* --- โค้ด CSS สำหรับส่วน BROWSE BY DRESS STYLE --- */
+
+/* ส่วนหัวข้อ */
+.browse-by-dress-style-title {
+    text-align: center;
+    font-size: 36px; /* ปรับขนาดตามความเหมาะสม */
+    text-transform: uppercase;
+    font-weight: 900; /* ตัวหนาพิเศษ */
+    margin-bottom: 24px;
+    margin-top: 80px; /* เพิ่มระยะห่างด้านบน */
+}
+
+/* Container หลักของ Grid */
+.browse-by-dress-style-container {
+    display: grid;
+    /* เราจะสร้าง Grid ที่มี 5 คอลัมน์เท่าๆ กัน */
+    grid-template-columns: repeat(5, 1fr); 
+    /* และ 2 แถว ที่มีความสูง 280px */
+    grid-template-rows: 280px 280px; 
+    gap: 20px; /* ระยะห่างระหว่างกล่อง */
+    max-width: 1239px; /* กำหนดความกว้างสูงสุด */
+    max-height: 866px;
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+    padding: 20px; /* เพิ่ม padding รอบๆ */
+    background-color: #f0f2f0;
+    border-radius: 30px;
+
+}
+
+/* สไตล์ร่วมของทุกกล่อง */
+.dress-style-item {
+    border-radius: 20px; /* ทำให้ขอบมน */
+    background-size: cover; /* ทำให้รูปเต็มพื้นที่กล่อง */
+    background-position: center; /* จัดให้รูปอยู่กลาง */
+    padding: 24px; /* ระยะห่างของข้อความจากขอบ */
+    display: flex; /* ใช้ flexbox จัดตำแหน่งข้อความ */
+    align-items: flex-start; /* จัดข้อความชิดบน */
+    position: relative; /* สำหรับเทคนิคเพิ่มเติม เช่น overlay */
+}
+
+.dress-style-item h3 {
+    color: rgb(0, 0, 0); /* สีข้อความ */
+    font-size: 28px;
+    font-weight: bold;
+    /* เพิ่มเงาให้ข้อความอ่านง่ายขึ้นบนพื้นหลังรูปภาพ */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+}
+
+
+/* --- การกำหนดตำแหน่งและรูปภาพของแต่ละกล่อง --- */
+
+#casual-style {
+    /* อยู่แถวที่ 1 */
+    grid-row: 1 / 2; 
+    /* เริ่มจากเส้นคอลัมน์ที่ 1 และกินพื้นที่ไป 2 คอลัมน์ */
+    grid-column: 1 / 3; 
+    background-image: url('https://i.imgur.com/uC5x24F.png'); /* รูปภาพตัวอย่าง */
+}
+
+#formal-style {
+    /* อยู่แถวที่ 1 */
+    grid-row: 1 / 2;
+    /* เริ่มจากเส้นคอลัมน์ที่ 3 และกินพื้นที่ไป 3 คอลัมน์ */
+    grid-column: 3 / 6;
+    background-image: url('https://i.imgur.com/eAnTfPK.png'); /* รูปภาพตัวอย่าง */
+}
+
+#party-style {
+    /* อยู่แถวที่ 2 */
+    grid-row: 2 / 3;
+    /* เริ่มจากเส้นคอลัมน์ที่ 1 และกินพื้นที่ไป 3 คอลัมน์ */
+    grid-column: 1 / 4;
+    background-image: url('https://i.imgur.com/4S0Jm4c.png'); /* รูปภาพตัวอย่าง */
+}
+
+#gym-style {
+    /* อยู่แถวที่ 2 */
+    grid-row: 2 / 3;
+    /* เริ่มจากเส้นคอลัมน์ที่ 4 และกินพื้นที่ไป 2 คอลัมน์ */
+    grid-column: 4 / 6;
+    background-image: url('https://i.imgur.com/39aQBFN.png'); /* รูปภาพตัวอย่าง */
+}
+
+
+
+.feedback-title{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 98px;
+  margin-left: 100px;
+}
+
+.customers-feedback-container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 400px;
+  max-height: 240px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #f5a623;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.verified {
+  color: green;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.subscribe-news-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 1.5em;
+  border-radius: 1.5em;
+  max-width: 1240px;
+  max-height: 180px;
+  margin-left: 290px;
+  p {
+    font-size: 40px;
+    color: white;
+    padding-left: 2em;
+  }
+}
+
+.subscribe-news{
+  display: flex;
+}
+
+
+.subscribe-news form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-left: 223px;
+  input{
+    width: 349px;
+    height: 48px;
+    border-radius: 9999px;
+  }
+  button{
+    width: 349px;
+    height: 46px;
+    border-radius: 9999px;
+  }
+}
