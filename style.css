@@ -580,3 +580,81 @@ p {
     border-radius: 9999px;
   }
 }
+
+
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f1f1f1;
+}
+
+.footer-shop-co-brand {
+  flex: 1 1 300px;
+  margin-right: 2rem;
+  p {
+    color: #9A9A9A;
+  }
+}
+
+.socia-media-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2 1 600px;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-links > div {
+  flex: 1 1 200px;
+}
+
+.footer-links h3 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-top: 1em;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #606060;
+}
+
+
+.divider-two{
+  height: 1px;
+  width: 1240px;
+  border: 1px solid #D8D8D8;
+  margin: 40px auto;
+}
+
+.copyrightANDpayment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-notice{
+  margin-left: 320px;
+}
+
+
+.payment-methods{
+  margin-right: 320px;
+}
+
+
